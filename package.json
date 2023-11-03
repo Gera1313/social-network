@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Gera1313/18-social-network/issues"
   },
-  "homepage": "https://github.com/Gera1313/18-social-network#readme"
+  "homepage": "https://github.com/Gera1313/18-social-network#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
 }

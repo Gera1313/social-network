@@ -1,0 +1,28 @@
+{
+  "name": "18-social-network",
+  "version": "1.0.0",
+  "description": "social network API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gera1313/18-social-network.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "social",
+    "network",
+    "API",
+    "MongoDB",
+    "Express.js"
+  ],
+  "author": "Gerardo Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gera1313/18-social-network/issues"
+  },
+  "homepage": "https://github.com/Gera1313/18-social-network#readme"
+}

@@ -58,7 +58,7 @@ Behind on projects and the end of the course is here! Just started this one. Unf
 
 The following images show the CURRENT web application's appearance and functionality. Keep in mind this is a work in progress, it is NOT complete yet (see Notes above).
 
-![Insert screenshot here]() 
+![Insert screenshot here](./Assets/home.png) 
 
 ## Installations
 

@@ -1,4 +1,3 @@
-// Import any necessary models or modules
 const { Thought, User } = require('../models');
 
 // Define controller functions

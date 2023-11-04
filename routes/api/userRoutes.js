@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
+router.get('/', (req, res) => {
+  res.json({ message: 'Welcome to the Social Network API' });
+});
+
 // Imports necessary controller functions (define these in userController.js)
 const {
     getAllUsers,

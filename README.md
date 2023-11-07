@@ -52,7 +52,7 @@ This is the goal!
 
 ## Notes
 
-Behind on projects and the end of the course is here! Just started this one. Unfortunately, I will have to look at it again sometime after November 15 when I have more time and I'm in no pressure to complete assignments by Nov 15 and prepare for a 3rd and final project. Stay tuned! 
+Behind on projects and the end of the course is here! Just started this one. Unfortunately, I will have to look at it again sometime after November 15 when I have more time and I'm in no pressure to complete assignments by Nov 15 and don't have to work on a 3rd and final project. Stay tuned! 
 
 ## Usage
 
@@ -68,14 +68,14 @@ To install this application you need to clone the code, open the code in your ID
 
 [Repository](https://github.com/Gera1313/18-social-network)
 
-[Deployed Link](Insert here when available)
+[Walkthrough video Link](https://youtu.be/easco5NMiAQ)
 
 [MongoDB installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb)
 
 ## Credits
 
-Module 18 Zoom lecture and activities.
+Module 18 Zoom lecture and activities. Tutor Jere Wongani. 
 
 ## Licenses
 
-MIT License
+## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  

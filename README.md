@@ -4,7 +4,7 @@
 
 The project is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. I will use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, I may also optionally use a JavaScript date library of my choice or the native JavaScript `Date` object to format timestamps.
 
-No seed data is provided, so I will need to create my own data using Insomnia after I have created my API.
+I will create my own data using Insomnia after I have created my API.
 
 ## User Story
 
@@ -52,7 +52,7 @@ This is the goal!
 
 ## Notes
 
-Behind on projects and the end of the course is here! Just started this one. Unfortunately, I will have to look at it again sometime after November 15 when I have more time and I'm in no pressure to complete assignments by Nov 15 and don't have to work on a 3rd and final project. Stay tuned! 
+April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
 
 ## Usage
 
@@ -71,10 +71,6 @@ To install this application you need to clone the code, open the code in your ID
 [Walkthrough video Link](https://youtu.be/easco5NMiAQ)
 
 [MongoDB installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb)
-
-## Credits
-
-Module 18 Zoom lecture and activities. Tutor Jere Wongani. 
 
 ## Licenses
 

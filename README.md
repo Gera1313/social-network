@@ -1,8 +1,8 @@
-# NoSQL: Social Network API
+# Social Network API
 
-## The Task
+## My Project
 
-The task is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. I will use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, I may also optionally use a JavaScript date library of my choice or the native JavaScript `Date` object to format timestamps.
+The project is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. I will use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, I may also optionally use a JavaScript date library of my choice or the native JavaScript `Date` object to format timestamps.
 
 No seed data is provided, so I will need to create my own data using Insomnia after I have created my API.
 
@@ -66,7 +66,7 @@ To install this application you need to clone the code, open the code in your ID
 
 ## Links
 
-[Repository](https://github.com/Gera1313/18-social-network)
+[Repository](https://github.com/Gera1313/social-network)
 
 [Walkthrough video Link](https://youtu.be/easco5NMiAQ)
 

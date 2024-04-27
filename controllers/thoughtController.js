@@ -21,28 +21,29 @@ const thoughtController = {
       })
       .catch((err) => res.status(400).json(err));
   },
-  // Create a new thought
-  createThought(req, res) {
-    const { thoughtText, username } = req.body;
+// Create a new thought
+createThought(req, res) {
+  const { thoughtText, username } = req.body;
 
-    Thought.create({ thoughtText, username })
-      .then((thought) => {
-        const userID = 'USER_ID_HERE' // Place user id here when obtained
-        return User.findByIdAndUpdate(
-          userId, 
-          { $push: { thoughts: thought._id }},
-          { new: true }
-        );
-      })
+  Thought.create({ thoughtText, username })
+    .then((thought) => {
+      const userId = 'USER_ID_HERE'; // Place user id here when obtained
+      return User.findByIdAndUpdate(
+        userId,
+        { $push: { thoughts: thought._id } },
+        { new: true }
+      )
       .then((user) => {
         if (!user) {
           res.status(404).json({ message: 'User not found' });
           return;
         }
         res.json(thought);
-      })
-      .catch((err) => res.status(400).json(err));
-  },
+      });
+    })
+    .catch((err) => res.status(400).json(err));
+},
+
   // Update a thought by ID
   updateThought(req, res) {
     const thoughtId = req.params.thoughtId;

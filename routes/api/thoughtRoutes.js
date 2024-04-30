@@ -1,40 +1,31 @@
-const express = require('express');
-const router = express.Router();
-
-// Imports the necessary controller functions (define these in thoughtController.js)
+const router = require('express').Router();
 const {
-    getAllThoughts,
-    getThoughtById,
-    createThought,
-    updateThought,
-    deleteThought,
-    createReaction,
-    deleteReaction
-  } = require('../../controllers/thoughtController');
-  
-  // Defines thought-related routes
-  
-  // GET all thoughts
-  router.get('/', getAllThoughts);
-  
-  // GET a thought by ID
-  router.get('/:thoughtId', getThoughtById);
-  
-  // POST a new thought
-  router.post('/', createThought);
-  
-  // PUT (update) a thought by ID
-  router.put('/:thoughtId', updateThought);
-  
-  // DELETE a thought by ID
-  router.delete('/:thoughtId', deleteThought);
-  
-  // POST a reaction to a thought
-  router.post('/:thoughtId/reactions', createReaction);
-  
-  // DELETE a reaction from a thought
-  router.delete('/:thoughtId/reactions/:reactionId', deleteReaction);
-  
+  getThoughts,
+  getSingleThought,
+  createThought,
+  updateThought,
+  deleteThought,
+  addReaction,
+  removeReaction,
+} = require('../../controllers/thoughtController');
+
+// /api/thoughts
+router.route('/')
+  .get(getThoughts)
+  .post(createThought);
+
+// /api/thoughts/:thoughtId
+router.route('/:thoughtId')
+  .get(getSingleThought)
+  .put(updateThought)
+  .delete(deleteThought);
+
+// /api/thoughts/:thoughtId/reactions
+router.route('/:thoughtId/reactions')
+  .post(addReaction);
+
+// /api/thoughts/:thoughtId/reactions/:reactionId
+router.route('/:thoughtId/reactions/:reactionId')
+  .delete(removeReaction);
 
 module.exports = router;
-

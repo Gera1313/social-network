@@ -1,28 +1,18 @@
 const { Schema, model } = require('mongoose');
-
-// Define the schema for reactions
-const reactionSchema = new Schema(
-  {
-    reactionBody: {
-      type: String,
-      required: true,
-      minlength: 1,
-      maxlength: 280, 
-    },
-    username: {
-      type: String,
-      required: true,
-    },
-  }
-);
+const reactionSchema = require('./Reaction');
 
 const thoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
-      required: true,
+      required: 'A thought is required',
       minlength: 1,
       maxlength: 280,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+      get: (timestamp) => moment(timestamp).format('MMM Do, YYYY [at] hh:mm a'),
     },
     username: {
       type: String,
@@ -31,11 +21,19 @@ const thoughtSchema = new Schema(
     reactions: [reactionSchema],
   },
   {
-    timestamps: true,
+    toJSON: {
+      getters: true,
+    },
+    id: false,
   }
 );
+
+thoughtSchema.virtual('reactionCount').get(function () {
+  return this.reactions.length;
+});
 
 const Thought = model('Thought', thoughtSchema);
 
 module.exports = Thought;
 
+// Maybe install Moment? 

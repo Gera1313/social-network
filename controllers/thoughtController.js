@@ -109,3 +109,5 @@ createThought(req, res) {
 };
 
 module.exports = thoughtController;
+
+// might need work

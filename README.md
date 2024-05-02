@@ -54,6 +54,8 @@ This is the goal!
 
 April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
 
+May 1: Almost close to working. Testing. 
+
 ## Usage
 
 The following images show the CURRENT web application's appearance and functionality. Keep in mind this is a work in progress, it is NOT complete yet (see Notes above).

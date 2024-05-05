@@ -27,6 +27,7 @@
   "homepage": "https://github.com/Gera1313/social-network#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "moment": "^2.30.1",
     "mongoose": "^8.0.0"
   }
 }

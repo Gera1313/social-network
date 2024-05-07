@@ -54,7 +54,7 @@ This is the goal!
 
 April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
 
-May 1: Almost close to working. Testing. 
+May 6: Finished code but still get arrors. Not sure why. Will keep testing. 
 
 ## Usage
 

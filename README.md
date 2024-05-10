@@ -48,8 +48,6 @@ The following animation shows the POST and DELETE routes for a user’s friend l
 
 ![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](./Assets/18-nosql-homework-demo-04.gif)
 
-This is the goal! 
-
 ## Notes
 
 April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  

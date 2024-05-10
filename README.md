@@ -28,7 +28,17 @@ WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
 
-## Mock Up
+## Notes
+
+April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
+
+May 10, 2024: Finished code and it works. 
+
+## Installations
+
+To install this application you need to clone the code, open the code in your IDE. To run this application, enter the following in the terminal: ```npm install``` & ```npm start```.
+
+## Usage
 
 The following animations show examples of the application's API routes being tested in Insomnia.
 
@@ -48,21 +58,9 @@ The following animation shows the POST and DELETE routes for a user’s friend l
 
 ![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](./Assets/18-nosql-homework-demo-04.gif)
 
-## Notes
-
-April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
-
-May 10, 2024: Finished code and it works. 
-
-## Installations
-
-To install this application you need to clone the code, open the code in your IDE. To run this application, enter the following in the terminal: ```npm install``` & ```npm start```.
-
 ## Links
 
 [Repository](https://github.com/Gera1313/social-network)
-
-[Walkthrough video Link](https://youtu.be/easco5NMiAQ)
 
 [MongoDB installation guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb)
 

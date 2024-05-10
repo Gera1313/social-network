@@ -52,7 +52,7 @@ The following animation shows the POST and DELETE routes for a user’s friend l
 
 April 25, 2024: Revisiting this project to finish it and fix all of the issues associated with it.  
 
-May 6: Finished code but still get arrors. Not sure why. Will keep testing. 
+May 10, 2024: Finished code and it works. 
 
 ## Usage
 

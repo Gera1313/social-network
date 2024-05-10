@@ -54,12 +54,6 @@ April 25, 2024: Revisiting this project to finish it and fix all of the issues a
 
 May 10, 2024: Finished code and it works. 
 
-## Usage
-
-The following images show the CURRENT web application's appearance and functionality. Keep in mind this is a work in progress, it is NOT complete yet (see Notes above).
-
-![Insert screenshot here](./Assets/home.png) 
-
 ## Installations
 
 To install this application you need to clone the code, open the code in your IDE. To run this application, enter the following in the terminal: ```npm install``` & ```npm start```.
